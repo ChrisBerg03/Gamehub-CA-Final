@@ -25,12 +25,12 @@ body {
 }
 
 .inner-container {
-    max-width: 360px;
+    width: 360px;
     height: 100%;
     margin: 0 auto;
 }
 .outside-container {
-    width: 430px;
+    min-width: 430px;
     background-color: var(--primary);
 }
 
@@ -80,18 +80,19 @@ header {
 .aligned-text {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .featured-game-text {
-    font-family: 'Gill Sans ultra bold';
+    font-family: 'Gill Sans', 'inter';
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 900;
     letter-spacing: 4%;
     color: white;
     text-align: left;
     width: 360px;
     height: 20px;
-
+    margin: 16px 0 12px 0;
 }
 
 .game-one {
@@ -111,4 +112,71 @@ header {
 }
 .game-six {
     background-image: url(/assets/images/GameHub_covers8.jpg);
+}
+
+.categories-whole {
+
+}
+
+.categories-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.categories-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 35px 0 35px;
+    position: relative;
+    width: 360px;
+}
+
+.categories-text button {
+    border: none;
+    background: none;
+    margin: 0;
+    font-size: 8px;
+    font-weight: 900;
+    letter-spacing: 4%;
+    color: white;
+    text-align: left;
+}
+
+.categories-text h2 {
+    font-family: 'Gill Sans', 'inter';
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 4%;
+    color: white;
+    text-align: left;
+    margin: 8px 0 12px 0;
+}
+
+.action {
+    background-image: url(/assets/images/GameHub_covers9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -21px;
+    width: 172px;
+    height: 192px;
+    margin-right: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.adventure  {
+    background-image: url(/assets/images/GameHub_covers8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -21px;
+    width: 172px;
+    height: 192px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.arrow-left, .arrow-right {
+    align-self: center;
+    padding: 0 12px 0 12px;
 }
