@@ -127,3 +127,8 @@ footer {
     letter-spacing: 4%;
     padding-top: 10px;
 }
+
+
+.list-games {
+    background-color: var(--secondary);
+}

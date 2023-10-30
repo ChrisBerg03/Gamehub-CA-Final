@@ -1,0 +1,84 @@
+.list-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 8px 35px 8px 0;
+}
+
+.featured-games-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.featured-games {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -10px;
+    width: 80px;
+    height: 90px;
+    margin-left: 1px;
+}
+
+.list-games {
+    width: 360px;
+    height: 92px;
+    margin-bottom: 8px;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+
+.list-games-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list-games h2 {
+    font-size: 12px;
+    font-family: 'inter';
+    letter-spacing: 4%;
+    font-weight: 700;
+    margin: 0;
+}
+
+.list-games p {
+    font-size: 12px;
+    font-family: 'inter';
+    letter-spacing: 4%;
+    font-weight: 500;
+    margin: 0;
+}
+
+.game-one {
+    background-image: url(/assets/images/GameHub_covers9.jpg);
+}
+.game-two {
+    background-image: url(/assets/images/GameHub_covers7.jpg);
+}
+.game-three {
+    background-image: url(/assets/images/GameHub_covers8.jpg);
+}
+.game-four {
+    background-image: url(/assets/images/GameHub_covers6.jpg);
+}
+.game-five {
+    background-image: url(/assets/images/GameHub_covers5.jpg);
+}
+.game-six {
+    background-image: url(/assets/images/GameHub_covers3.jpg);
+}
+.game-seven {
+    background-image: url(/assets/images/GameHub_covers4.jpg);
+}
+.game-eight {
+    background-image: url(/assets/images/GameHub_covers10.jpg);
+}
+.game-nine {
+    background-image: url(/assets/images/GameHub_covers.jpg);
+}
+.game-ten {
+    background-image: url(/assets/images/GameHub_covers2.jpg);
+}
