@@ -6,11 +6,17 @@
         <title>Gamehub | Home</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/Styles.css" />
+        <script
+            src="https://kit.fontawesome.com/1c8aded1d1.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
         <div class="inner-container">
@@ -58,38 +64,69 @@
                             <div class="arrow-left">
                                 <img src="/assets/svg/arrow-left.svg" />
                             </div>
-                            <div class="action"></div>
-                            <div class="adventure"></div>
+                            <div class="action category">
+                                <div class="layer"></div>
+                                <div class="layer-text">Action</div>
+                            </div>
+                            <div class="adventure category">
+                                <div class="layer"></div>
+                                <div class="layer-text">Adventure</div>
+                            </div>
                             <div class="arrow-right">
                                 <img src="/assets/svg/arrow-right.svg" />
                             </div>
                         </div>
                     </div>
                 </main>
-                <nav class="bottom-navbar">
-                    <ul>
-                        <li>Home</li>
-                        <li>Order</li>
-                        <li>News</li>
-                        <li>Profile</li>
-                    </ul>
-                </nav>
+
                 <footer>
-                    <div>
+                    <div class="bottom-info">
                         <p>Support</p>
                         <p>About us</p>
                         <p>Cookies</p>
                         <p>Blog</p>
+                        <span><hr class="hr-line" /></span>
                     </div>
-                    <div class="line"></div>
-                    <div class="socials">
-                        <div class="socialmedia facebook"></div>
-                        <div class="socialmedia twitter"></div>
-                        <div class="socialmedia pinerest"></div>
-                        <div class="socialmedia instagram"></div>
-                        <div class="socialmedia youtube"></div>
-                        <div class="socialmedia tiktok"></div>
-                    </div>
+                    <ul class="bottom-socials">
+                        <li class="social-space">
+                            <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                        </li>
+                        <li class="social-space">
+                            <i class="fa-brands fa-twitter fa-2xl"></i>
+                        </li>
+                        <li class="social-space">
+                            <i class="fa-brands fa-pinterest-p fa-2xl"></i>
+                        </li>
+                        <li class="social-space">
+                            <i class="fa-brands fa-instagram fa-2xl"></i>
+                        </li>
+                        <li class="social-space">
+                            <i class="fa-brands fa-youtube fa-2xl"></i>
+                        </li>
+                        <li class="social-space">
+                            <i class="fa-brands fa-tiktok fa-2xl"></i>
+                        </li>
+                    </ul>
+                    <nav class="total-bottom">
+                        <div class="nav-under">
+                            <i class="fa-solid fa-house fa-2xl"></i>
+                            <h2>Home</h2>
+                        </div>
+                        <div class="nav-under">
+                            <i
+                                class="fa-solid fa-scroll fa-flip-horizontal fa-2xl"
+                            ></i>
+                            <h2>Order</h2>
+                        </div>
+                        <div class="nav-under">
+                            <i class="fa-regular fa-bell fa-2xl"></i>
+                            <h2>News</h2>
+                        </div>
+                        <div class="nav-under">
+                            <i class="fa-regular fa-user fa-2xl"></i>
+                            <h2>Profile</h2>
+                        </div>
+                    </nav>
                 </footer>
             </div>
         </div>
