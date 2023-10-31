@@ -10,6 +10,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    gap: 8px;
 }
 
 .featured-games {
@@ -24,7 +25,6 @@
 .list-games {
     width: 360px;
     height: 92px;
-    margin-bottom: 8px;
     align-items: center;
     display: flex;
     color: #fff;
@@ -33,7 +33,12 @@
 .list-games-text {
     display: flex;
     flex-direction: column;
+    left: 16px;
+    position: relative;
+}
 
+.game-categories {
+    padding: 16px 0 0 0;
 }
 
 .list-games h2 {
@@ -42,6 +47,10 @@
     letter-spacing: 4%;
     font-weight: 700;
     margin: 0;
+    height: 12px;
+    width: 80px;
+    position: relative;
+    top: 4px;
 }
 
 .list-games p {
@@ -50,6 +59,40 @@
     letter-spacing: 4%;
     font-weight: 500;
     margin: 0;
+    display: inline;
+}
+
+.review-aside {
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+}
+
+.review-aside p {
+    font-size: 10px;
+    font-family: 'inter';
+    letter-spacing: 4%;
+    font-weight: 700;
+}
+
+.thumb-aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    line-height: 15px;
+}
+
+.thumb-aside p {
+    width: 100px;
+    display: flex;
+}
+
+.thumb-aside img {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 5px;
+    align-self: center;
 }
 
 .game-one {
