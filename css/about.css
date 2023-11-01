@@ -1,0 +1,17 @@
+main {
+    margin: 24px 35px 0 35px;
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+main h5 {
+    margin: 0;
+}
+
+main p {
+    margin-top: 6px;
+}
+
+main div {
+    margin-top: 24px;
+}
