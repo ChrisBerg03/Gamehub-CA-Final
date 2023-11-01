@@ -3,6 +3,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    overflow: hidden;
+}
+
+.featured-games-container img {
+    width: 172px;
+    height: 192px;
+    object-fit: cover;
+    position: relative;
+    top: -7px;
 }
 
 .featured-games {
@@ -34,25 +43,6 @@
     width: 360px;
     height: 20px;
     margin: 16px 0 12px 0;
-}
-
-.game-one {
-    background-image: url(/assets/images/GameHub_covers9.jpg);
-}
-.game-two {
-    background-image: url(/assets/images/GameHub_covers8.jpg);
-}
-.game-three {
-    background-image: url(/assets/images/GameHub_covers7.jpg);
-}
-.game-four {
-    background-image: url(/assets/images/GameHub_covers6.jpg);
-}
-.game-five {
-    background-image: url(/assets/images/GameHub_covers9.jpg);
-}
-.game-six {
-    background-image: url(/assets/images/GameHub_covers8.jpg);
 }
 
 .categories-container {

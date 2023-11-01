@@ -133,3 +133,7 @@ footer {
 .list-games {
     background-color: var(--secondary);
 }
+
+a {
+    text-decoration: none;
+}
